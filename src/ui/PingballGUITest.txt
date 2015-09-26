@@ -1,0 +1,42 @@
+Testing Strategy for Pingball GUI
+
+LOADFILE
+- correct file can be loaded
+- attempt to load file that does not exist throws an error 
+
+CONNECT TO SERVER
+- no server specified: don't connect to server.
+- server specified: connect to specified server
+
+EXIT
+- exit window and client
+
+DISCONNECT
+- Should only appear if connected to server
+- disconnect and close window to server
+- balls should disappear as said on piazza
+
+CONNECT
+- Should only appear if not connected to server
+- prompts user for port&host number 
+
+RESTART
+- all gadgets and balls return to their original positions
+
+RESUME/PAUSE
+- if game is not paused: gadgets and balls continue moving with previous velocity
+- if game is not paused: all gadgets and balls stop moving
+
+BOARD
+-should be empty upon gui initialization
+
+HEADS?
+-ball graphics become miller's and goldman's heads based on 50/50 probability
+-ball graphics return to balls after heads? is clicked again
+
+DISCO
+-makes the background of the game fun colors!
+
+KEYBOARD CONTROLS
+-displays "None" if no keys act as triggers
+-otherwise displays whether it's keyup or keydown, the key, and the name of the object it triggers

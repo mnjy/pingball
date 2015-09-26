@@ -1,0 +1,34 @@
+    /*
+     * TESTING STRATEGY FOR KEYBOARD
+     * 
+     * -Check that pressing the following keys won't cause any action:
+     *      -Key that is invalid button (ex: `, TAB)
+     *      -Key that is valid but currently not set to an action
+     *      -Key that is set to activate a gadget type that is not
+     *      able to be activated (circleBumper, triangleBumper, ball, etc.)
+     *      
+     * -Check that flipper is flipped when:
+     *      -keyDown is called on that action*
+     *      -keyUp is called on that action
+     * 
+     * -Check that flipper is in original position when:
+     *      -keyDown and keyUp for the same key are called on that action
+     *      
+     * -Check that absorber releases one ball:
+     *      -keyDown is called on that action with ball present
+     *      -keyUp is called on that action with ball present
+     *      -keyDown is called on that action with 2 balls present
+     *      
+     * -Check that no ball is released when no ball is in the absorber
+     * 
+     * *Confirm for keys:
+     *       | [a-z] 
+     *       | [0-9]
+     *       | shift | ctrl | alt | meta
+     *       | space
+     *       | left | right | up | down
+     *       | minus | equals | backspace
+     *       | openbracket | closebracket | backslash
+     *       | semicolon | quote | enter
+     *       | comma | period | slash
+     */

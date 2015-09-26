@@ -1,0 +1,19 @@
+    /*
+     * Testing strategy:
+     * BALLS:
+     *  - ball movement smooth
+     *  - ball movement different for different values of gravity
+     *  - ball colliding with/reflecting off gadgets
+     *  - ball transportation when colliding with portal
+     *  - ball stored in absorber
+     *  - ball when shot out from absorbers
+     * GADGETS:
+     *  - each gadget should be displayed with the desired shape
+     *  - each gadget should take up the desired space
+     *  - absorber with different dimensions
+     *  - portals should be shiny
+     *  - flipper movement smooth
+     * WALLS:
+     *  - wall display when not connected
+     *  - wall name display when connected
+     */
